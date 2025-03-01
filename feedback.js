@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            github_repo: "hack",
+            github_repo: "gif-vibes",
             github_owner: "rileyhilliard",
             feedback,
             logs: dedupedLogs,
