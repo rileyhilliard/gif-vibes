@@ -457,3 +457,36 @@ dialog::backdrop {
     padding: 10px 20px;
   }
 }
+
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.error-state svg {
+  color: var(--error-color);
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.error-state h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--error-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.error-state p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin: 0;
+  max-width: 300px;
+}

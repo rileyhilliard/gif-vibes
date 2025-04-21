@@ -1,0 +1,7 @@
+{
+  "name": "gif-vibes",
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
